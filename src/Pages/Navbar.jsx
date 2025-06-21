@@ -1,7 +1,12 @@
-export default function Navbar() {
+import { useState } from "react";
+import styles from "./Navbar.module.css";
+
+function Navbar() {
   return (
-    <div>
-      <h1> This Is Nav Bar </h1>
-    </div>
+    <nav className={styles.navbar}>
+      <span className={styles.logo}>LilyCakes</span>
+    </nav>
   );
 }
+
+export default Navbar;

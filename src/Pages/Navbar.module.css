@@ -1,0 +1,13 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #fff8f0;
+  padding: 1rem;
+  border-bottom: 2px solid #ffc1cc;
+  
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d63384;
+}
