@@ -1,0 +1,38 @@
+// Variables
+$primary-color:rgb(193, 77, 255);
+$background-color: #fff;
+$text-color: #333;
+$hover-color:($primary-color, 10%);
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .logo {
+    font-size: 1.5rem;
+    color: $primary-color;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}
+
