@@ -1,0 +1,38 @@
+// Variables
+$primary-color: rgb(193, 77, 255);
+$background-color: #fff;
+$text-color: #333;
+$hover-color: ($primary-color, 10%);
+
+.navbar {
+  background-color: $background-color;
+  padding: 1rem 2rem;
+  height:auto;
+}
+.logo {
+  font-size: 1.5rem;
+  color: rgb(193, 77, 255);
+  font-weight: bold;
+  cursor: pointer;
+  width: 9.8vw;
+  height: 9.8vw;
+  border-radius: 84px;
+  margin-left: 2rem;
+}
+.navbar-menu {
+  display: flex;
+  gap: 8vw;
+}
+.navbar-menu li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+a {
+  color: $text-color;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  &:hover {
+    color: $hover-color;
+  }
+}
