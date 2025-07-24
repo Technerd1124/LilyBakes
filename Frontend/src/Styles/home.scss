@@ -1,0 +1,14 @@
+.homebody {
+    border:2px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+.homebody img {
+  border-radius: 32px;
+  width: 70vw;
+}
