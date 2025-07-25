@@ -1,9 +1,10 @@
+@import './variables';
+@import './mixins';
 // Variables
 $primary-color: rgba(200, 147, 228, 0.32);
 $background-color: #fff;
 $text-color: #333;
 $hover-color: ($primary-color, 10%);
-
 .navbar {
   // border: 2px solid;
   background-color: $primary-color;
@@ -32,7 +33,6 @@ $hover-color: ($primary-color, 10%);
 .navbar-menu li {
   list-style: none;
 }
-
 .mavbar-right {
   // border: 2px solid;
   padding: 2%;
@@ -41,15 +41,13 @@ $hover-color: ($primary-color, 10%);
 #search {
   border: 2px solid pink;
   border-radius: 2rem;
-  padding:2px;
-  font-family:cursive;
-}
-.mavbar-right button { 
-  border:none;
-  padding : 1.3vh;
-  border-radius:20px;
-  margin-left:10px;
 
+  font-family: cursive;
+}
+.mavbar-right button {
+  border: none;
+  margin-left: 10px;
+  background: #00000000;
 }
 a {
   color: $text-color;

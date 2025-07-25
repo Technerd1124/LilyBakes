@@ -1,14 +1,30 @@
+// _variables.scss
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+
 .homebody {
-    border:2px solid;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    margin: 0;
-    align-items: center;
+  border: 0px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0;
 }
 
 .homebody img {
+  position: absolute;
   border-radius: 32px;
-  width: 70vw;
+  width: 58vw;
+}
+#banner1 {
+  left: 20px;
+  position: relative;
+}
+#banner2 {
+  position: relative;
+  right: 0px;
+  left: 38vw;
 }

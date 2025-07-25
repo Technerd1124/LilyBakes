@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <div className="homebody">
-        <img src={assets.bakerybg2} alt="IMG1" />
-        <img src={assets.bakerybg} alt="IMG2" />
+        <img src={assets.banner1} alt="IMG1" id="banner1" />
+        <img src={assets.banner2} alt="IMG2" id="banner2" />
       </div>
     </div>
   );
